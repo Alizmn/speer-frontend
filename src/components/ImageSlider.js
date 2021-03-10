@@ -6,11 +6,14 @@ const styles = {
     width: "100%",
     height: "auto",
   },
+  div: {
+    margin: "-4px",
+  },
 };
 
 function ImageSlider() {
   return (
-    <div>
+    <div style={styles.div}>
       <img src={image2} style={styles.slider} />
     </div>
   );
